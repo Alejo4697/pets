@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>PET SHOP - Pet Shop Website Template</title>
+    <title>PetLover - Pet Care Website Template</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -12,51 +12,74 @@
     <link href="img/favicon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet"> 
 
-    <!-- Icon Font Stylesheet -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Flaticon Font -->
     <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
     <!-- Topbar Start -->
-    <div class="container-fluid border-bottom d-none d-lg-block">
-        <div class="row gx-0">
-            <div class="col-lg-4 text-center py-2">
+    <div class="container-fluid">
+        <div class="row bg-secondary py-2 px-lg-5">
+            <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center">
-                    <i class="bi bi-geo-alt fs-1 text-primary me-3"></i>
-                    <div class="text-start">
-                        <h6 class="text-uppercase mb-1">Our Office</h6>
-                        <span>123 Street, New York, USA</span>
-                    </div>
+                    <a class="text-white pr-3" href="">FAQs</a>
+                    <span class="text-white">|</span>
+                    <a class="text-white px-3" href="">Help</a>
+                    <span class="text-white">|</span>
+                    <a class="text-white pl-3" href="">Support</a>
                 </div>
             </div>
-            <div class="col-lg-4 text-center border-start border-end py-2">
+            <div class="col-lg-6 text-center text-lg-right">
                 <div class="d-inline-flex align-items-center">
-                    <i class="bi bi-envelope-open fs-1 text-primary me-3"></i>
-                    <div class="text-start">
-                        <h6 class="text-uppercase mb-1">Email Us</h6>
-                        <span>info@example.com</span>
-                    </div>
+                    <a class="text-white px-3" href="">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a class="text-white px-3" href="">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a class="text-white px-3" href="">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a class="text-white px-3" href="">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a class="text-white pl-3" href="">
+                        <i class="fab fa-youtube"></i>
+                    </a>
                 </div>
             </div>
-            <div class="col-lg-4 text-center py-2">
+        </div>
+        <div class="row py-3 px-lg-5">
+            <div class="col-lg-4">
+                <a href="" class="navbar-brand d-none d-lg-block">
+                    <h1 class="m-0 display-5 text-capitalize"><span class="text-primary">Pet</span>Lover</h1>
+                </a>
+            </div>
+            <div class="col-lg-8 text-center text-lg-right">
                 <div class="d-inline-flex align-items-center">
-                    <i class="bi bi-phone-vibrate fs-1 text-primary me-3"></i>
-                    <div class="text-start">
-                        <h6 class="text-uppercase mb-1">Call Us</h6>
-                        <span>+012 345 6789</span>
+                    <div class="d-inline-flex flex-column text-center pr-3 border-right">
+                        <h6>Opening Hours</h6>
+                        <p class="m-0">8.00AM - 9.00PM</p>
+                    </div>
+                    <div class="d-inline-flex flex-column text-center px-3 border-right">
+                        <h6>Email Us</h6>
+                        <p class="m-0">info@example.com</p>
+                    </div>
+                    <div class="d-inline-flex flex-column text-center pl-3">
+                        <h6>Call Us</h6>
+                        <p class="m-0">+012 345 6789</p>
                     </div>
                 </div>
             </div>
@@ -66,72 +89,62 @@
 
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm py-3 py-lg-0 px-3 px-lg-0 mb-5">
-        <a href="index.html" class="navbar-brand ms-lg-5">
-            <h1 class="m-0 text-uppercase text-dark"><i class="bi bi-shop fs-1 text-primary me-3"></i>Pet Shop</h1>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto py-0">
-                <a href="index.html" class="nav-item nav-link">Home</a>
-                <a href="about.html" class="nav-item nav-link active">About</a>
-                <a href="service.html" class="nav-item nav-link">Service</a>
-                <a href="product.html" class="nav-item nav-link">Product</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                    <div class="dropdown-menu m-0">
-                        <a href="price.html" class="dropdown-item">Pricing Plan</a>
-                        <a href="team.html" class="dropdown-item">The Team</a>
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                        <a href="blog.html" class="dropdown-item">Blog Grid</a>
-                        <a href="detail.html" class="dropdown-item">Blog Detail</a>
+    <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-lg-5">
+            <a href="" class="navbar-brand d-block d-lg-none">
+                <h1 class="m-0 display-5 text-capitalize font-italic text-white"><span class="text-primary">Safety</span>First</h1>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+                <div class="navbar-nav mr-auto py-0">
+                    <a href="index.html" class="nav-item nav-link">Home</a>
+                    <a href="about.html" class="nav-item nav-link active">About</a>
+                    <a href="service.html" class="nav-item nav-link">Service</a>
+                    <a href="price.html" class="nav-item nav-link">Price</a>
+                    <a href="booking.html" class="nav-item nav-link">Booking</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="blog.html" class="dropdown-item">Blog Grid</a>
+                            <a href="single.html" class="dropdown-item">Blog Detail</a>
+                        </div>
                     </div>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
                 </div>
-                <a href="contact.html" class="nav-item nav-link nav-contact bg-primary text-white px-5 ms-lg-5">Contact <i class="bi bi-arrow-right"></i></a>
+                <a href="" class="btn btn-lg btn-primary px-3 d-none d-lg-block">Get Quote</a>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
     <!-- Navbar End -->
 
 
     <!-- About Start -->
-    <div class="container-fluid py-5">
-        <div class="container">
-            <div class="row gx-5">
-                <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded" src="img/about.jpg" style="object-fit: cover;">
+    <div class="container py-5">
+        <div class="row py-5">
+            <div class="col-lg-7 pb-5 pb-lg-0 px-3 px-lg-5">
+                <h4 class="text-secondary mb-3">About Us</h4>
+                <h1 class="display-4 mb-4"><span class="text-primary">Boarding</span> & <span class="text-secondary">Daycare</span></h1>
+                <h5 class="text-muted mb-3">Amet stet amet ut. Sit no vero vero no dolor. Sed erat ut sea. Just clita ut stet kasd at diam sit erat vero sit.</h5>
+                <p class="mb-4">Dolores lorem lorem ipsum sit et ipsum. Sadip sea amet diam dolore sed et. Sit rebum labore sit sit ut vero no sit. Et elitr stet dolor sed sit et sed ipsum et kasd ut. Erat duo eos et erat sed diam duo</p>
+                <ul class="list-inline">
+                    <li><h5><i class="fa fa-check-double text-secondary mr-3"></i>Best In Industry</h5></li>
+                    <li><h5><i class="fa fa-check-double text-secondary mr-3"></i>Emergency Services</h5></li>
+                    <li><h5><i class="fa fa-check-double text-secondary mr-3"></i>24/7 Customer Support</h5></li>
+                </ul>
+                <a href="" class="btn btn-lg btn-primary mt-3 px-4">Learn More</a>
+            </div>
+            <div class="col-lg-5">
+                <div class="row px-3">
+                    <div class="col-12 p-0">
+                        <img class="img-fluid w-100" src="img/about-1.jpg" alt="">
                     </div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="border-start border-5 border-primary ps-5 mb-5">
-                        <h6 class="text-primary text-uppercase">About Us</h6>
-                        <h1 class="display-5 text-uppercase mb-0">We Keep Your Pets Happy All Time</h1>
+                    <div class="col-6 p-0">
+                        <img class="img-fluid w-100" src="img/about-2.jpg" alt="">
                     </div>
-                    <h4 class="text-body mb-4">Diam dolor diam ipsum tempor sit. Clita erat ipsum et lorem stet no labore lorem sit clita duo justo magna dolore</h4>
-                    <div class="bg-light p-4">
-                        <ul class="nav nav-pills justify-content-between mb-3" id="pills-tab" role="tablist">
-                            <li class="nav-item w-50" role="presentation">
-                                <button class="nav-link text-uppercase w-100 active" id="pills-1-tab" data-bs-toggle="pill"
-                                    data-bs-target="#pills-1" type="button" role="tab" aria-controls="pills-1"
-                                    aria-selected="true">Our Mission</button>
-                            </li>
-                            <li class="nav-item w-50" role="presentation">
-                                <button class="nav-link text-uppercase w-100" id="pills-2-tab" data-bs-toggle="pill"
-                                    data-bs-target="#pills-2" type="button" role="tab" aria-controls="pills-2"
-                                    aria-selected="false">Our Vission</button>
-                            </li>
-                        </ul>
-                        <div class="tab-content" id="pills-tabContent">
-                            <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-1-tab">
-                                <p class="mb-0">Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam dolor diam ipsum et, tempor voluptua sit consetetur sit. Aliquyam diam amet diam et eos sadipscing labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor consetetur takimata eirmod, dolores takimata consetetur invidunt magna dolores aliquyam dolores dolore. Amet erat amet et magna</p>
-                            </div>
-                            <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="pills-2-tab">
-                                <p class="mb-0">Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam dolor diam ipsum et, tempor voluptua sit consetetur sit. Aliquyam diam amet diam et eos sadipscing labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor consetetur takimata eirmod, dolores takimata consetetur invidunt magna dolores aliquyam dolores dolore. Amet erat amet et magna</p>
-                            </div>
-                        </div>
+                    <div class="col-6 p-0">
+                        <img class="img-fluid w-100" src="img/about-3.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -140,111 +153,122 @@
     <!-- About End -->
 
 
-    <!-- Offer Start -->
-    <div class="container-fluid bg-offer my-5 py-5">
-        <div class="container py-5">
-            <div class="row gx-5 justify-content-start">
-                <div class="col-lg-7">
-                    <div class="border-start border-5 border-dark ps-5 mb-5">
-                        <h6 class="text-dark text-uppercase">Special Offer</h6>
-                        <h1 class="display-5 text-uppercase text-white mb-0">Save 50% on all items your first order</h1>
+    <!-- Features Start -->
+    <div class="container-fluid bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5">
+                    <img class="img-fluid w-100" src="img/feature.jpg" alt="">
+                </div>
+                <div class="col-lg-7 py-5 py-lg-0 px-3 px-lg-5">
+                    <h4 class="text-secondary mb-3">Why Choose Us?</h4>
+                    <h1 class="display-4 mb-4"><span class="text-primary">Special Care</span> On Pets</h1>
+                    <p class="mb-4">Dolor lorem lorem ipsum sit et ipsum. Sadip sea amet diam sed ut vero no sit. Et elitr stet sed sit sed kasd. Erat duo eos et erat sed diam duo</p>
+                    <div class="row py-2">
+                        <div class="col-6">
+                            <div class="d-flex align-items-center mb-4">
+                                <h1 class="flaticon-cat font-weight-normal text-secondary m-0 mr-3"></h1>
+                                <h5 class="text-truncate m-0">Best In Industry</h5>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="d-flex align-items-center mb-4">
+                                <h1 class="flaticon-doctor font-weight-normal text-secondary m-0 mr-3"></h1>
+                                <h5 class="text-truncate m-0">Emergency Services</h5>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="d-flex align-items-center">
+                                <h1 class="flaticon-care font-weight-normal text-secondary m-0 mr-3"></h1>
+                                <h5 class="text-truncate m-0">Special Care</h5>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="d-flex align-items-center">
+                                <h1 class="flaticon-dog font-weight-normal text-secondary m-0 mr-3"></h1>
+                                <h5 class="text-truncate m-0">Customer Support</h5>
+                            </div>
+                        </div>
                     </div>
-                    <p class="text-white mb-4">Eirmod sed tempor lorem ut dolores sit kasd ipsum. Dolor ea et dolore et at sea ea at dolor justo ipsum duo rebum sea. Eos vero eos vero ea et dolore eirmod et. Dolores diam duo lorem. Elitr ut dolores magna sit. Sea dolore sed et.</p>
-                    <a href="" class="btn btn-light py-md-3 px-md-5 me-3">Shop Now</a>
-                    <a href="" class="btn btn-outline-light py-md-3 px-md-5">Read More</a>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Offer End -->
+    <!-- Features End -->
 
 
     <!-- Team Start -->
-    <div class="container-fluid py-5">
-        <div class="container">
-            <div class="border-start border-5 border-primary ps-5 mb-5" style="max-width: 600px;">
-                <h6 class="text-primary text-uppercase">Team Members</h6>
-                <h1 class="display-5 text-uppercase mb-0">Qualified Pets Care Professionals</h1>
+    <div class="container mt-5 pt-5 pb-3">
+        <div class="d-flex flex-column text-center mb-5">
+            <h4 class="text-secondary mb-3">Team Member</h4>
+            <h1 class="display-4 m-0">Meet Our <span class="text-primary">Team Member</span></h1>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <div class="team card position-relative overflow-hidden border-0 mb-4">
+                    <img class="card-img-top" src="img/team-1.jpg" alt="">
+                    <div class="card-body text-center p-0">
+                        <div class="team-text d-flex flex-column justify-content-center bg-light">
+                            <h5>Mollie Ross</h5>
+                            <i>Founder & CEO</i>
+                        </div>
+                        <div class="team-social d-flex align-items-center justify-content-center bg-dark">
+                            <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 36px; height: 36px;" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 36px; height: 36px;" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 36px; height: 36px;" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-primary rounded-circle text-center px-0" style="width: 36px; height: 36px;" href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="owl-carousel team-carousel position-relative" style="padding-right: 25px;">
-                <div class="team-item">
-                    <div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/team-1.jpg" alt="">
-                        <div class="team-overlay">
-                            <div class="d-flex align-items-center justify-content-start">
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-twitter"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-facebook"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-linkedin"></i></a>
-                            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="team card position-relative overflow-hidden border-0 mb-4">
+                    <img class="card-img-top" src="img/team-2.jpg" alt="">
+                    <div class="card-body text-center p-0">
+                        <div class="team-text d-flex flex-column justify-content-center bg-light">
+                            <h5>Jennifer Page</h5>
+                            <i>Chef Executive</i>
                         </div>
-                    </div>
-                    <div class="bg-light text-center p-4">
-                        <h5 class="text-uppercase">Full Name</h5>
-                        <p class="m-0">Designation</p>
+                        <div class="team-social d-flex align-items-center justify-content-center bg-dark">
+                            <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 36px; height: 36px;" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 36px; height: 36px;" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 36px; height: 36px;" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-primary rounded-circle text-center px-0" style="width: 36px; height: 36px;" href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
                     </div>
                 </div>
-                <div class="team-item">
-                    <div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/team-2.jpg" alt="">
-                        <div class="team-overlay">
-                            <div class="d-flex align-items-center justify-content-start">
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-twitter"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-facebook"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-linkedin"></i></a>
-                            </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="team card position-relative overflow-hidden border-0 mb-4">
+                    <img class="card-img-top" src="img/team-3.jpg" alt="">
+                    <div class="card-body text-center p-0">
+                        <div class="team-text d-flex flex-column justify-content-center bg-light">
+                            <h5>Kate Glover</h5>
+                            <i>Doctor</i>
                         </div>
-                    </div>
-                    <div class="bg-light text-center p-4">
-                        <h5 class="text-uppercase">Full Name</h5>
-                        <p class="m-0">Designation</p>
+                        <div class="team-social d-flex align-items-center justify-content-center bg-dark">
+                            <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 36px; height: 36px;" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 36px; height: 36px;" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 36px; height: 36px;" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-primary rounded-circle text-center px-0" style="width: 36px; height: 36px;" href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
                     </div>
                 </div>
-                <div class="team-item">
-                    <div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/team-3.jpg" alt="">
-                        <div class="team-overlay">
-                            <div class="d-flex align-items-center justify-content-start">
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-twitter"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-facebook"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-linkedin"></i></a>
-                            </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="team card position-relative overflow-hidden border-0 mb-4">
+                    <img class="card-img-top" src="img/team-4.jpg" alt="">
+                    <div class="card-body text-center p-0">
+                        <div class="team-text d-flex flex-column justify-content-center bg-light">
+                            <h5>Lilly Fry</h5>
+                            <i>Trainer</i>
                         </div>
-                    </div>
-                    <div class="bg-light text-center p-4">
-                        <h5 class="text-uppercase">Full Name</h5>
-                        <p class="m-0">Designation</p>
-                    </div>
-                </div>
-                <div class="team-item">
-                    <div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/team-4.jpg" alt="">
-                        <div class="team-overlay">
-                            <div class="d-flex align-items-center justify-content-start">
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-twitter"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-facebook"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-linkedin"></i></a>
-                            </div>
+                        <div class="team-social d-flex align-items-center justify-content-center bg-dark">
+                            <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 36px; height: 36px;" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 36px; height: 36px;" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 36px; height: 36px;" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-primary rounded-circle text-center px-0" style="width: 36px; height: 36px;" href="#"><i class="fab fa-instagram"></i></a>
                         </div>
-                    </div>
-                    <div class="bg-light text-center p-4">
-                        <h5 class="text-uppercase">Full Name</h5>
-                        <p class="m-0">Designation</p>
-                    </div>
-                </div>
-                <div class="team-item">
-                    <div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/team-5.jpg" alt="">
-                        <div class="team-overlay">
-                            <div class="d-flex align-items-center justify-content-start">
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-twitter"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-facebook"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bg-light text-center p-4">
-                        <h5 class="text-uppercase">Full Name</h5>
-                        <p class="m-0">Designation</p>
                     </div>
                 </div>
             </div>
@@ -254,79 +278,77 @@
 
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-light mt-5 py-5">
-        <div class="container pt-5">
-            <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Get In Touch</h5>
-                    <p class="mb-4">No dolore ipsum accusam no lorem. Invidunt sed clita kasd clita et et dolor sed dolor</p>
-                    <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>123 Street, New York, USA</p>
-                    <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>info@example.com</p>
-                    <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+012 345 67890</p>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Quick Links</h5>
-                    <div class="d-flex flex-column justify-content-start">
-                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
-                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
-                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
-                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Meet The Team</a>
-                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
-                        <a class="text-body" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Popular Links</h5>
-                    <div class="d-flex flex-column justify-content-start">
-                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
-                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
-                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
-                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Meet The Team</a>
-                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
-                        <a class="text-body" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Newsletter</h5>
-                    <form action="">
-                        <div class="input-group">
-                            <input type="text" class="form-control p-3" placeholder="Your Email">
-                            <button class="btn btn-primary">Sign Up</button>
+    <div class="container-fluid bg-dark text-white mt-5 py-5 px-sm-3 px-md-5">
+        <div class="row pt-5">
+            <div class="col-lg-4 col-md-12 mb-5">
+                <h1 class="mb-3 display-5 text-capitalize text-white"><span class="text-primary">Pet</span>Lover</h1>
+                <p class="m-0">Ipsum amet sed vero et lorem stet eos ut, labore sed sed stet sea est ipsum ut. Volup amet ea sanct ipsum, dolore vero lorem no duo eirmod. Eirmod amet ipsum no ipsum lorem clita ut. Ut sed sit lorem ea lorem sed, amet stet sit sea ea diam tempor kasd kasd. Diam nonumy etsit tempor ut sed diam sed et ea</p>
+            </div>
+            <div class="col-lg-8 col-md-12">
+                <div class="row">
+                    <div class="col-md-4 mb-5">
+                        <h5 class="text-primary mb-4">Get In Touch</h5>
+                        <p><i class="fa fa-map-marker-alt mr-2"></i>123 Street, New York, USA</p>
+                        <p><i class="fa fa-phone-alt mr-2"></i>+012 345 67890</p>
+                        <p><i class="fa fa-envelope mr-2"></i>info@example.com</p>
+                        <div class="d-flex justify-content-start mt-4">
+                            <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 36px; height: 36px;" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 36px; height: 36px;" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 36px; height: 36px;" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 36px; height: 36px;" href="#"><i class="fab fa-instagram"></i></a>
                         </div>
-                    </form>
-                    <h6 class="text-uppercase mt-4 mb-3">Follow Us</h6>
-                    <div class="d-flex">
-                        <a class="btn btn-outline-primary btn-square me-2" href="#"><i class="bi bi-twitter"></i></a>
-                        <a class="btn btn-outline-primary btn-square me-2" href="#"><i class="bi bi-facebook"></i></a>
-                        <a class="btn btn-outline-primary btn-square me-2" href="#"><i class="bi bi-linkedin"></i></a>
-                        <a class="btn btn-outline-primary btn-square" href="#"><i class="bi bi-instagram"></i></a>
                     </div>
-                </div>
-                <div class="col-12 text-center text-body">
-                    <a class="text-body" href="">Terms & Conditions</a>
-                    <span class="mx-1">|</span>
-                    <a class="text-body" href="">Privacy Policy</a>
-                    <span class="mx-1">|</span>
-                    <a class="text-body" href="">Customer Support</a>
-                    <span class="mx-1">|</span>
-                    <a class="text-body" href="">Payments</a>
-                    <span class="mx-1">|</span>
-                    <a class="text-body" href="">Help</a>
-                    <span class="mx-1">|</span>
-                    <a class="text-body" href="">FAQs</a>
+                    <div class="col-md-4 mb-5">
+                        <h5 class="text-primary mb-4">Popular Links</h5>
+                        <div class="d-flex flex-column justify-content-start">
+                            <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                            <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>About Us</a>
+                            <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Our Services</a>
+                            <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Our Team</a>
+                            <a class="text-white" href="#"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-5">
+                        <h5 class="text-primary mb-4">Newsletter</h5>
+                        <form action="">
+                            <div class="form-group">
+                                <input type="text" class="form-control border-0" placeholder="Your Name" required="required" />
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control border-0" placeholder="Your Email" required="required" />
+                            </div>
+                            <div>
+                                <button class="btn btn-lg btn-primary btn-block border-0" type="submit">Submit Now</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container-fluid bg-dark text-white-50 py-4">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-md-6 text-center text-md-start">
-                    <p class="mb-md-0">&copy; <a class="text-white" href="#">Your Site Name</a>. All Rights Reserved.</p>
-                </div>
-                <div class="col-md-6 text-center text-md-end">
-                    <p class="mb-0">Designed by <a class="text-white" href="https://htmlcodex.com">HTML Codex</a></p>
-                </div>
+    <div class="container-fluid text-white py-4 px-sm-3 px-md-5" style="background: #111111;">
+        <div class="row">
+            <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
+                <p class="m-0 text-white">
+                    &copy; <a class="text-white font-weight-bold" href="#">Your Site Name</a>. All Rights Reserved. Designed by
+                    <a class="text-white font-weight-bold" href="https://htmlcodex.com">HTML Codex</a>
+                </p>
+            </div>
+            <div class="col-md-6 text-center text-md-right">
+                <ul class="nav d-inline-flex">
+                    <li class="nav-item">
+                        <a class="nav-link text-white py-0" href="#">Privacy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white py-0" href="#">Terms</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white py-0" href="#">FAQs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white py-0" href="#">Help</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
@@ -334,15 +356,21 @@
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-primary py-3 fs-4 back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <a href="#" class="btn btn-lg btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
