@@ -6,7 +6,7 @@
     $passwd = $_POST['passwd'];
     $enc_pass = md5($passwd);
 
-    $sql_validate_email = " SELECT * FROM users2 WHERE email= '$email'";
+    $sql_validate_email = " SELECT * FROM users WHERE email= '$email'";
     $result = pg_query($conn, $sql_validate_email);
     $total = pg_num_rows($result);
 
